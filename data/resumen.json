@@ -1,0 +1,333 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "ejercicios": [
+  "2024",
+  "2025"
+ ],
+ "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito.",
+ "datos": {
+  "2024": {
+   "entidades": {
+    "concesiones": 1189396,
+    "importe": 40749340987.19,
+    "ayuda_equivalente": 37558578621.17,
+    "beneficiarios_distintos": 356572,
+    "convocatorias_distintas": 49279
+   },
+   "excluidas": {
+    "total": {
+     "n": 14801,
+     "importe": 1319333920.12
+    },
+    "por_motivo": {
+     "persona_fisica": {
+      "n": 14801,
+      "importe": 1319333920.12
+     }
+    }
+   },
+   "registros_leidos": 1204197,
+   "duplicados_ignorados": 0,
+   "importe_nulo": 0,
+   "importe_negativo": {
+    "n": 0,
+    "suma": 0.0
+   },
+   "cuadre": {
+    "leidos_igual_entidades_mas_excluidas_mas_dup": true
+   },
+   "por_instrumento": [
+    {
+     "instrumento": "SUBVENCIÓN y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN",
+     "n": 1157870,
+     "importe": 36418463227.36
+    },
+    {
+     "instrumento": "GARANTÍA",
+     "n": 23535,
+     "importe": 2804467333.83
+    },
+    {
+     "instrumento": "PRÉSTAMO",
+     "n": 4448,
+     "importe": 1350103165.32
+    },
+    {
+     "instrumento": "VENTAJA FISCAL",
+     "n": 3274,
+     "importe": 155659561.67
+    },
+    {
+     "instrumento": "OTROS INSTRUMENTOS DE AYUDA",
+     "n": 268,
+     "importe": 19647699.01
+    },
+    {
+     "instrumento": "APORTACIÓN DE FINANCIACIÓN RIESGO",
+     "n": 1,
+     "importe": 1000000.0
+    }
+   ],
+   "registrado_en_anio": [
+    {
+     "anio_alta": "2024",
+     "n": 761781,
+     "importe": 25975191613.82
+    },
+    {
+     "anio_alta": "2025",
+     "n": 358575,
+     "importe": 9385201109.86
+    },
+    {
+     "anio_alta": "2026",
+     "n": 69040,
+     "importe": 5388948263.51
+    }
+   ],
+   "por_mes_concesion": [
+    {
+     "mes": "2024-01",
+     "n": 90699,
+     "importe": 5181180548.02
+    },
+    {
+     "mes": "2024-02",
+     "n": 53905,
+     "importe": 1765395723.88
+    },
+    {
+     "mes": "2024-03",
+     "n": 62175,
+     "importe": 2810104614.21
+    },
+    {
+     "mes": "2024-04",
+     "n": 65400,
+     "importe": 2002456814.09
+    },
+    {
+     "mes": "2024-05",
+     "n": 102975,
+     "importe": 2676923843.91
+    },
+    {
+     "mes": "2024-06",
+     "n": 147915,
+     "importe": 2161706591.1
+    },
+    {
+     "mes": "2024-07",
+     "n": 101182,
+     "importe": 3769177393.63
+    },
+    {
+     "mes": "2024-08",
+     "n": 44618,
+     "importe": 1160285016.29
+    },
+    {
+     "mes": "2024-09",
+     "n": 96076,
+     "importe": 2449621505.74
+    },
+    {
+     "mes": "2024-10",
+     "n": 116685,
+     "importe": 3917822531.04
+    },
+    {
+     "mes": "2024-11",
+     "n": 109969,
+     "importe": 3970931572.97
+    },
+    {
+     "mes": "2024-12",
+     "n": 197797,
+     "importe": 8883734832.31
+    }
+   ]
+  },
+  "2025": {
+   "entidades": {
+    "concesiones": 992042,
+    "importe": 44810695113.02,
+    "ayuda_equivalente": 41752166821.54,
+    "beneficiarios_distintos": 324144,
+    "convocatorias_distintas": 49419
+   },
+   "excluidas": {
+    "total": {
+     "n": 14498849,
+     "importe": 11555403466.51
+    },
+    "por_motivo": {
+     "persona_fisica": {
+      "n": 14498849,
+      "importe": 11555403466.51
+     }
+    }
+   },
+   "registros_leidos": 15490891,
+   "duplicados_ignorados": 0,
+   "importe_nulo": 0,
+   "importe_negativo": {
+    "n": 0,
+    "suma": 0.0
+   },
+   "cuadre": {
+    "leidos_igual_entidades_mas_excluidas_mas_dup": true
+   },
+   "por_instrumento": [
+    {
+     "instrumento": "SUBVENCIÓN y ENTREGA DINERARIA SIN CONTRAPRESTACIÓN",
+     "n": 963951,
+     "importe": 39440540505.1
+    },
+    {
+     "instrumento": "GARANTÍA",
+     "n": 17144,
+     "importe": 1989070319.57
+    },
+    {
+     "instrumento": "PRÉSTAMO",
+     "n": 5292,
+     "importe": 1884047977.14
+    },
+    {
+     "instrumento": "VENTAJA FISCAL",
+     "n": 5541,
+     "importe": 1472041621.56
+    },
+    {
+     "instrumento": "OTROS INSTRUMENTOS DE AYUDA",
+     "n": 112,
+     "importe": 20844689.65
+    },
+    {
+     "instrumento": "APORTACIÓN DE FINANCIACIÓN RIESGO",
+     "n": 2,
+     "importe": 4150000.0
+    }
+   ],
+   "registrado_en_anio": [
+    {
+     "anio_alta": "2025",
+     "n": 783578,
+     "importe": 34751226123.4
+    },
+    {
+     "anio_alta": "2026",
+     "n": 208464,
+     "importe": 10059468989.62
+    }
+   ],
+   "por_mes_concesion": [
+    {
+     "mes": "2025-01",
+     "n": 38137,
+     "importe": 969211878.66
+    },
+    {
+     "mes": "2025-02",
+     "n": 49277,
+     "importe": 4394027779.2
+    },
+    {
+     "mes": "2025-03",
+     "n": 63731,
+     "importe": 2339938372.82
+    },
+    {
+     "mes": "2025-04",
+     "n": 67147,
+     "importe": 1763423813.14
+    },
+    {
+     "mes": "2025-05",
+     "n": 105738,
+     "importe": 2925691953.64
+    },
+    {
+     "mes": "2025-06",
+     "n": 102209,
+     "importe": 3824161205.03
+    },
+    {
+     "mes": "2025-07",
+     "n": 83389,
+     "importe": 6220395503.79
+    },
+    {
+     "mes": "2025-08",
+     "n": 47160,
+     "importe": 2138925967.23
+    },
+    {
+     "mes": "2025-09",
+     "n": 81678,
+     "importe": 2444908427.79
+    },
+    {
+     "mes": "2025-10",
+     "n": 98045,
+     "importe": 3687926781.06
+    },
+    {
+     "mes": "2025-11",
+     "n": 103782,
+     "importe": 4122233451.88
+    },
+    {
+     "mes": "2025-12",
+     "n": 151749,
+     "importe": 9979849978.78
+    }
+   ]
+  }
+ },
+ "meta": {
+  "entidades.concesiones": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Número de concesiones a entidades jurídicas registradas en la BDNS, por fecha de concesión",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "concesiones"
+  },
+  "entidades.importe": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Suma del campo importe de esas concesiones",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR"
+  },
+  "entidades.ayuda_equivalente": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Suma del campo ayudaEquivalente (para préstamos/garantías, equivalente de subvención)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR"
+  },
+  "excluidas": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Concesiones descartadas antes de agregar: personas físicas (NIF enmascarado o DNI/NIE), comunidades de propietarios (H), identificadores no españoles",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "concesiones y EUR"
+  },
+  "registrado_en_anio": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Año de alta en la BDNS (fechaAlta) de las concesiones del ejercicio: mide el retraso de publicación",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "concesiones"
+  },
+  "por_instrumento": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Subvención dineraria, ventaja fiscal, préstamo, garantía…",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "concesiones y EUR"
+  }
+ }
+}

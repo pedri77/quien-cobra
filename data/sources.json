@@ -1,0 +1,39 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "fuentes": [
+  {
+   "id": "bdns_concesiones",
+   "nombre": "BDNS – API de concesiones",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "parametros": "vpd=GE, fechaDesde/fechaHasta (dd/mm/aaaa, sobre fecha de concesión), tipoAdministracion (C/A/L/O), page, pageSize=10000",
+   "licencia": "Datos abiertos con las condiciones de reutilización del SNPSAP (campo 'advertencia' de la API)",
+   "periodo": [
+    "2024",
+    "2025"
+   ]
+  },
+  {
+   "id": "bdns_convocatorias",
+   "nombre": "BDNS – detalle de convocatoria (finalidad, MRR, tipos de beneficiario previstos)",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias?vpd=GE&numConv="
+  },
+  {
+   "id": "bdns_grandes",
+   "nombre": "BDNS – grandes beneficiarios (>100.000 € de ayuda equivalente en el ejercicio)",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/grandesbeneficiarios/busqueda?vpd=GE&anios="
+  },
+  {
+   "id": "bdns_portal",
+   "nombre": "Portal público",
+   "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/concesiones"
+  }
+ ],
+ "decisiones": [
+  "Sólo se agregan concesiones cuyo beneficiario tiene NIF de entidad jurídica (letras A B C D E F G J N P Q R S U V W).",
+  "Las concesiones a personas físicas se descartan en el parser: no se guardan nombres, NIF, seudónimos ni hashes. Sólo se cuenta cuántas son y cuánto suman.",
+  "Ante la duda (letra H, identificadores no españoles, campo vacío) se descarta y se cuenta aparte.",
+  "El importe es el campo 'importe' de la concesión (EUR). 'ayudaEquivalente' se publica aparte.",
+  "La BDNS no marca anulaciones ni reintegros en la API de concesiones; los importes negativos se cuentan y se mantienen.",
+  "Los ejercicios se cortan por fecha de concesión; el registro puede llegar meses o años después (ver registrado_en_anio)."
+ ]
+}

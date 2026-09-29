@@ -1,0 +1,320 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "ejercicios": [
+  "2024",
+  "2025"
+ ],
+ "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito.",
+ "datos": {
+  "2024": [
+   {
+    "finalidad": "Industria y Energía",
+    "n": 66017,
+    "importe": 8186556192.19,
+    "pct_importe": 20.09,
+    "convocatorias": 600
+   },
+   {
+    "finalidad": "Investigación, desarrollo e innovación",
+    "n": 25665,
+    "importe": 4444004288.04,
+    "pct_importe": 10.91,
+    "convocatorias": 1215
+   },
+   {
+    "finalidad": "Fomento del Empleo",
+    "n": 80409,
+    "importe": 4260785566.57,
+    "pct_importe": 10.46,
+    "convocatorias": 1831
+   },
+   {
+    "finalidad": "Otras actuaciones de carácter económico",
+    "n": 76899,
+    "importe": 3302747546.65,
+    "pct_importe": 8.11,
+    "convocatorias": 4670
+   },
+   {
+    "finalidad": "Agricultura, Pesca y Alimentación",
+    "n": 485400,
+    "importe": 3125812404.09,
+    "pct_importe": 7.67,
+    "convocatorias": 2390
+   },
+   {
+    "finalidad": "Comercio, Turismo y Pymes",
+    "n": 129908,
+    "importe": 2995596258.71,
+    "pct_importe": 7.35,
+    "convocatorias": 3301
+   },
+   {
+    "finalidad": "Educación",
+    "n": 33617,
+    "importe": 2635654683.43,
+    "pct_importe": 6.47,
+    "convocatorias": 4368
+   },
+   {
+    "finalidad": "Otras Prestaciones económicas",
+    "n": 46743,
+    "importe": 2585461394.9,
+    "pct_importe": 6.34,
+    "convocatorias": 5528
+   },
+   {
+    "finalidad": "Servicios Sociales y Promoción Social",
+    "n": 65192,
+    "importe": 2567469074.1,
+    "pct_importe": 6.3,
+    "convocatorias": 8906
+   },
+   {
+    "finalidad": "Infraestructuras",
+    "n": 17518,
+    "importe": 2460043208.02,
+    "pct_importe": 6.04,
+    "convocatorias": 1349
+   },
+   {
+    "finalidad": "Cultura",
+    "n": 77145,
+    "importe": 1290651415.46,
+    "pct_importe": 3.17,
+    "convocatorias": 11970
+   },
+   {
+    "finalidad": "Subvenciones al transporte",
+    "n": 60413,
+    "importe": 853005174.41,
+    "pct_importe": 2.09,
+    "convocatorias": 398
+   },
+   {
+    "finalidad": "Acceso a la vivienda y fomento de la edificación",
+    "n": 1501,
+    "importe": 626797843.12,
+    "pct_importe": 1.54,
+    "convocatorias": 350
+   },
+   {
+    "finalidad": "Cooperación internacional para el desarrollo y cultural",
+    "n": 3463,
+    "importe": 383294091.97,
+    "pct_importe": 0.94,
+    "convocatorias": 644
+   },
+   {
+    "finalidad": "Sanidad",
+    "n": 7620,
+    "importe": 379949266.1,
+    "pct_importe": 0.93,
+    "convocatorias": 1086
+   },
+   {
+    "finalidad": "Justicia",
+    "n": 2175,
+    "importe": 292056879.59,
+    "pct_importe": 0.72,
+    "convocatorias": 242
+   },
+   {
+    "finalidad": "Desempleo",
+    "n": 5939,
+    "importe": 171316555.3,
+    "pct_importe": 0.42,
+    "convocatorias": 146
+   },
+   {
+    "finalidad": "Seguridad Ciudadana e Instituciones Penitenciarias",
+    "n": 2862,
+    "importe": 169109170.73,
+    "pct_importe": 0.41,
+    "convocatorias": 241
+   },
+   {
+    "finalidad": "INFORMACIÓN NO DISPONIBLE",
+    "n": 716,
+    "importe": 16899771.17,
+    "pct_importe": 0.04,
+    "convocatorias": 14
+   },
+   {
+    "finalidad": "Defensa",
+    "n": 194,
+    "importe": 2130202.64,
+    "pct_importe": 0.01,
+    "convocatorias": 30
+   }
+  ],
+  "2024_mrr": {
+   "n": 134907,
+   "importe": 8815515241.77,
+   "pct_importe": 21.63
+  },
+  "2025": [
+   {
+    "finalidad": "Industria y Energía",
+    "n": 19669,
+    "importe": 8662138692.12,
+    "pct_importe": 19.33,
+    "convocatorias": 576
+   },
+   {
+    "finalidad": "Infraestructuras",
+    "n": 16563,
+    "importe": 4333021196.11,
+    "pct_importe": 9.67,
+    "convocatorias": 1839
+   },
+   {
+    "finalidad": "Otras actuaciones de carácter económico",
+    "n": 72599,
+    "importe": 4293337088.14,
+    "pct_importe": 9.58,
+    "convocatorias": 4960
+   },
+   {
+    "finalidad": "Investigación, desarrollo e innovación",
+    "n": 24039,
+    "importe": 4281890309.36,
+    "pct_importe": 9.56,
+    "convocatorias": 1256
+   },
+   {
+    "finalidad": "Fomento del Empleo",
+    "n": 89665,
+    "importe": 4214307824.56,
+    "pct_importe": 9.4,
+    "convocatorias": 1683
+   },
+   {
+    "finalidad": "Servicios Sociales y Promoción Social",
+    "n": 65762,
+    "importe": 3710898741.48,
+    "pct_importe": 8.28,
+    "convocatorias": 8334
+   },
+   {
+    "finalidad": "Comercio, Turismo y Pymes",
+    "n": 151816,
+    "importe": 2986017200.08,
+    "pct_importe": 6.66,
+    "convocatorias": 3240
+   },
+   {
+    "finalidad": "Agricultura, Pesca y Alimentación",
+    "n": 351019,
+    "importe": 2940862093.99,
+    "pct_importe": 6.56,
+    "convocatorias": 2433
+   },
+   {
+    "finalidad": "Educación",
+    "n": 37291,
+    "importe": 2826486118.62,
+    "pct_importe": 6.31,
+    "convocatorias": 4549
+   },
+   {
+    "finalidad": "Otras Prestaciones económicas",
+    "n": 40921,
+    "importe": 1968603333.34,
+    "pct_importe": 4.39,
+    "convocatorias": 5420
+   },
+   {
+    "finalidad": "Cultura",
+    "n": 77837,
+    "importe": 1602794219.2,
+    "pct_importe": 3.58,
+    "convocatorias": 11921
+   },
+   {
+    "finalidad": "Subvenciones al transporte",
+    "n": 23011,
+    "importe": 1457751206.2,
+    "pct_importe": 3.25,
+    "convocatorias": 314
+   },
+   {
+    "finalidad": "Acceso a la vivienda y fomento de la edificación",
+    "n": 1658,
+    "importe": 411320139.45,
+    "pct_importe": 0.92,
+    "convocatorias": 360
+   },
+   {
+    "finalidad": "Cooperación internacional para el desarrollo y cultural",
+    "n": 3465,
+    "importe": 338498468.26,
+    "pct_importe": 0.76,
+    "convocatorias": 618
+   },
+   {
+    "finalidad": "Justicia",
+    "n": 2386,
+    "importe": 263782771.57,
+    "pct_importe": 0.59,
+    "convocatorias": 262
+   },
+   {
+    "finalidad": "Sanidad",
+    "n": 8217,
+    "importe": 197415434.78,
+    "pct_importe": 0.44,
+    "convocatorias": 1266
+   },
+   {
+    "finalidad": "Desempleo",
+    "n": 4372,
+    "importe": 177362807.19,
+    "pct_importe": 0.4,
+    "convocatorias": 107
+   },
+   {
+    "finalidad": "Seguridad Ciudadana e Instituciones Penitenciarias",
+    "n": 1620,
+    "importe": 121039491.37,
+    "pct_importe": 0.27,
+    "convocatorias": 245
+   },
+   {
+    "finalidad": "INFORMACIÓN NO DISPONIBLE",
+    "n": 47,
+    "importe": 21852303.38,
+    "pct_importe": 0.05,
+    "convocatorias": 11
+   },
+   {
+    "finalidad": "Defensa",
+    "n": 85,
+    "importe": 1315673.82,
+    "pct_importe": 0.0,
+    "convocatorias": 25
+   }
+  ],
+  "2025_mrr": {
+   "n": 143280,
+   "importe": 9400077335.44,
+   "pct_importe": 20.98
+  }
+ },
+ "meta": {
+  "finalidad": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Política de gasto declarada en la convocatoria (descripcionFinalidad, /api/convocatorias?numConv=). Se asigna a cada concesión por su convocatoria",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias",
+   "unit": "EUR y %"
+  },
+  "_mrr": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Concesiones cuya convocatoria está marcada como financiada por el Mecanismo de Recuperación y Resiliencia (Next Generation EU)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/convocatorias",
+   "unit": "EUR y %"
+  }
+ }
+}

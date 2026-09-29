@@ -1,0 +1,77 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "ejercicios": [
+  "2024",
+  "2025"
+ ],
+ "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito.",
+ "datos": {
+  "2024": {
+   "beneficiarios": 356572,
+   "importe_total": 40749340987.19,
+   "gini": 0.9084,
+   "mediana_por_beneficiario": 7700.0,
+   "media_por_beneficiario": 114280.82,
+   "top_10": 6.75,
+   "top_100": 19.02,
+   "top_1000": 41.41,
+   "top_1pct": {
+    "beneficiarios": 3565,
+    "pct_importe": 57.95
+   },
+   "top_10pct": {
+    "beneficiarios": 35657,
+    "pct_importe": 87.12
+   },
+   "top_50pct": {
+    "beneficiarios": 178286,
+    "pct_importe": 98.69
+   }
+  },
+  "2025": {
+   "beneficiarios": 324144,
+   "importe_total": 44810695113.02,
+   "gini": 0.9264,
+   "mediana_por_beneficiario": 6440.6,
+   "media_por_beneficiario": 138243.17,
+   "top_10": 8.52,
+   "top_100": 25.84,
+   "top_1000": 49.19,
+   "top_1pct": {
+    "beneficiarios": 3241,
+    "pct_importe": 63.25
+   },
+   "top_10pct": {
+    "beneficiarios": 32414,
+    "pct_importe": 90.08
+   },
+   "top_50pct": {
+    "beneficiarios": 162072,
+    "pct_importe": 98.96
+   }
+  }
+ },
+ "meta": {
+  "top_1pct": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Porcentaje del importe total que acumula el 1 % de beneficiarios (entidades jurídicas) con más importe",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "%"
+  },
+  "gini": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Índice de Gini de los importes acumulados por beneficiario (0 = reparto igual, 1 = todo a uno). Sólo importes positivos",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "índice 0-1"
+  },
+  "top_10": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Porcentaje del importe total que acumulan los 10 mayores beneficiarios",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "%"
+  }
+ }
+}

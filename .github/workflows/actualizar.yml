@@ -1,8 +1,11 @@
-name: Actualizar datos y publicar
+name: Publicar en GitHub Pages
+
+# Este observatorio NO se regenera en CI: descargar la BDNS entera son ~2,5 millones de
+# concesiones y más de 50.000 convocatorias, varias horas de API. La regeneración se hace en
+# local con `scripts/bdns_fetch.py` y `scripts/bdns_build.py`, y se sube el resultado.
+# Aquí solo se publica lo que hay en `site/`.
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # cada día a las 06:00 UTC
   push:
     branches: [main]
   workflow_dispatch:
@@ -24,11 +27,6 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Descargar y validar datos
-        run: python scripts/actualizar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

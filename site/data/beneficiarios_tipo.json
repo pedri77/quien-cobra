@@ -1,0 +1,364 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "ejercicios": [
+  "2024",
+  "2025"
+ ],
+ "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito.",
+ "datos": {
+  "2024": {
+   "familias": [
+    {
+     "familia": "Empresas",
+     "n": 787749,
+     "importe": 19181604853.91,
+     "pct_importe": 47.07,
+     "beneficiarios": 252635
+    },
+    {
+     "familia": "Sector público",
+     "n": 175398,
+     "importe": 14138313282.03,
+     "pct_importe": 34.7,
+     "beneficiarios": 16787
+    },
+    {
+     "familia": "Sin ánimo de lucro",
+     "n": 178141,
+     "importe": 6397792301.53,
+     "pct_importe": 15.7,
+     "beneficiarios": 73934
+    },
+    {
+     "familia": "Cooperativas",
+     "n": 40245,
+     "importe": 965154952.09,
+     "pct_importe": 2.37,
+     "beneficiarios": 8894
+    },
+    {
+     "familia": "Entidades extranjeras",
+     "n": 7863,
+     "importe": 66475597.63,
+     "pct_importe": 0.16,
+     "beneficiarios": 4322
+    }
+   ],
+   "letras": [
+    {
+     "letra": "B",
+     "descripcion": "Sociedades limitadas",
+     "n": 482739,
+     "importe": 12242104621.14,
+     "pct_importe": 30.04,
+     "beneficiarios": 197430
+    },
+    {
+     "letra": "P",
+     "descripcion": "Ayuntamientos y otras corporaciones locales",
+     "n": 149584,
+     "importe": 8343607344.3,
+     "pct_importe": 20.48,
+     "beneficiarios": 10912
+    },
+    {
+     "letra": "G",
+     "descripcion": "Asociaciones, fundaciones y otras sin ánimo de lucro",
+     "n": 170061,
+     "importe": 6074124226.62,
+     "pct_importe": 14.91,
+     "beneficiarios": 71492
+    },
+    {
+     "letra": "A",
+     "descripcion": "Sociedades anónimas",
+     "n": 53128,
+     "importe": 5554658789.9,
+     "pct_importe": 13.63,
+     "beneficiarios": 13913
+    },
+    {
+     "letra": "Q",
+     "descripcion": "Organismos públicos, universidades y consorcios",
+     "n": 22406,
+     "importe": 4586500274.36,
+     "pct_importe": 11.26,
+     "beneficiarios": 4365
+    },
+    {
+     "letra": "S",
+     "descripcion": "Órganos de la Administración del Estado y de las CCAA",
+     "n": 3408,
+     "importe": 1208205663.37,
+     "pct_importe": 2.96,
+     "beneficiarios": 1510
+    },
+    {
+     "letra": "F",
+     "descripcion": "Cooperativas",
+     "n": 40245,
+     "importe": 965154952.09,
+     "pct_importe": 2.37,
+     "beneficiarios": 8894
+    },
+    {
+     "letra": "V",
+     "descripcion": "Otras entidades",
+     "n": 28605,
+     "importe": 524280235.92,
+     "pct_importe": 1.29,
+     "beneficiarios": 5001
+    },
+    {
+     "letra": "J",
+     "descripcion": "Sociedades civiles",
+     "n": 113587,
+     "importe": 444625156.23,
+     "pct_importe": 1.09,
+     "beneficiarios": 17803
+    },
+    {
+     "letra": "E",
+     "descripcion": "Comunidades de bienes",
+     "n": 109333,
+     "importe": 372832340.62,
+     "pct_importe": 0.91,
+     "beneficiarios": 18346
+    },
+    {
+     "letra": "R",
+     "descripcion": "Entidades religiosas",
+     "n": 8080,
+     "importe": 323668074.91,
+     "pct_importe": 0.79,
+     "beneficiarios": 2442
+    },
+    {
+     "letra": "U",
+     "descripcion": "Uniones temporales de empresas",
+     "n": 285,
+     "importe": 42367649.49,
+     "pct_importe": 0.1,
+     "beneficiarios": 109
+    },
+    {
+     "letra": "N",
+     "descripcion": "Entidades extranjeras",
+     "n": 7573,
+     "importe": 41998972.4,
+     "pct_importe": 0.1,
+     "beneficiarios": 4250
+    },
+    {
+     "letra": "W",
+     "descripcion": "Establecimientos permanentes de no residentes",
+     "n": 290,
+     "importe": 24476625.23,
+     "pct_importe": 0.06,
+     "beneficiarios": 72
+    },
+    {
+     "letra": "D",
+     "descripcion": "Sociedades comanditarias",
+     "n": 50,
+     "importe": 625834.8,
+     "pct_importe": 0.0,
+     "beneficiarios": 22
+    },
+    {
+     "letra": "C",
+     "descripcion": "Sociedades colectivas",
+     "n": 22,
+     "importe": 110225.81,
+     "pct_importe": 0.0,
+     "beneficiarios": 11
+    }
+   ]
+  },
+  "2025": {
+   "familias": [
+    {
+     "familia": "Empresas",
+     "n": 603908,
+     "importe": 19946964076.45,
+     "pct_importe": 44.51,
+     "beneficiarios": 223956
+    },
+    {
+     "familia": "Sector público",
+     "n": 175071,
+     "importe": 17902596826.4,
+     "pct_importe": 39.95,
+     "beneficiarios": 16200
+    },
+    {
+     "familia": "Sin ánimo de lucro",
+     "n": 181247,
+     "importe": 6055969753.66,
+     "pct_importe": 13.51,
+     "beneficiarios": 75441
+    },
+    {
+     "familia": "Cooperativas",
+     "n": 31521,
+     "importe": 849509392.1,
+     "pct_importe": 1.9,
+     "beneficiarios": 8376
+    },
+    {
+     "familia": "Entidades extranjeras",
+     "n": 295,
+     "importe": 55655064.41,
+     "pct_importe": 0.12,
+     "beneficiarios": 171
+    }
+   ],
+   "letras": [
+    {
+     "letra": "B",
+     "descripcion": "Sociedades limitadas",
+     "n": 367591,
+     "importe": 12607724300.85,
+     "pct_importe": 28.14,
+     "beneficiarios": 175057
+    },
+    {
+     "letra": "P",
+     "descripcion": "Ayuntamientos y otras corporaciones locales",
+     "n": 149703,
+     "importe": 11005508489.8,
+     "pct_importe": 24.56,
+     "beneficiarios": 10371
+    },
+    {
+     "letra": "A",
+     "descripcion": "Sociedades anónimas",
+     "n": 47097,
+     "importe": 6167901434.08,
+     "pct_importe": 13.76,
+     "beneficiarios": 11489
+    },
+    {
+     "letra": "G",
+     "descripcion": "Asociaciones, fundaciones y otras sin ánimo de lucro",
+     "n": 173289,
+     "importe": 5707722375.58,
+     "pct_importe": 12.74,
+     "beneficiarios": 72956
+    },
+    {
+     "letra": "Q",
+     "descripcion": "Organismos públicos, universidades y consorcios",
+     "n": 21933,
+     "importe": 4846099718.25,
+     "pct_importe": 10.81,
+     "beneficiarios": 4485
+    },
+    {
+     "letra": "S",
+     "descripcion": "Órganos de la Administración del Estado y de las CCAA",
+     "n": 3435,
+     "importe": 2050988618.35,
+     "pct_importe": 4.58,
+     "beneficiarios": 1344
+    },
+    {
+     "letra": "F",
+     "descripcion": "Cooperativas",
+     "n": 31521,
+     "importe": 849509392.1,
+     "pct_importe": 1.9,
+     "beneficiarios": 8376
+    },
+    {
+     "letra": "V",
+     "descripcion": "Otras entidades",
+     "n": 23739,
+     "importe": 470489429.06,
+     "pct_importe": 1.05,
+     "beneficiarios": 4587
+    },
+    {
+     "letra": "R",
+     "descripcion": "Entidades religiosas",
+     "n": 7958,
+     "importe": 348247378.08,
+     "pct_importe": 0.78,
+     "beneficiarios": 2485
+    },
+    {
+     "letra": "J",
+     "descripcion": "Sociedades civiles",
+     "n": 94629,
+     "importe": 348031619.69,
+     "pct_importe": 0.78,
+     "beneficiarios": 16320
+    },
+    {
+     "letra": "E",
+     "descripcion": "Comunidades de bienes",
+     "n": 70596,
+     "importe": 318062671.67,
+     "pct_importe": 0.71,
+     "beneficiarios": 16401
+    },
+    {
+     "letra": "U",
+     "descripcion": "Uniones temporales de empresas",
+     "n": 185,
+     "importe": 32395799.09,
+     "pct_importe": 0.07,
+     "beneficiarios": 74
+    },
+    {
+     "letra": "W",
+     "descripcion": "Establecimientos permanentes de no residentes",
+     "n": 131,
+     "importe": 28714810.5,
+     "pct_importe": 0.06,
+     "beneficiarios": 52
+    },
+    {
+     "letra": "N",
+     "descripcion": "Entidades extranjeras",
+     "n": 164,
+     "importe": 26940253.91,
+     "pct_importe": 0.06,
+     "beneficiarios": 119
+    },
+    {
+     "letra": "D",
+     "descripcion": "Sociedades comanditarias",
+     "n": 38,
+     "importe": 1848684.71,
+     "pct_importe": 0.0,
+     "beneficiarios": 16
+    },
+    {
+     "letra": "C",
+     "descripcion": "Sociedades colectivas",
+     "n": 33,
+     "importe": 510137.3,
+     "pct_importe": 0.0,
+     "beneficiarios": 12
+    }
+   ]
+  }
+ },
+ "meta": {
+  "familias": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Tipo de entidad deducido de la letra inicial del NIF (Orden EHA/451/2008). La BDNS no publica el tipo real del beneficiario en la concesión",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR, % y beneficiarios distintos"
+  },
+  "letras": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Desglose por letra de NIF",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR, % y beneficiarios distintos"
+  }
+ }
+}

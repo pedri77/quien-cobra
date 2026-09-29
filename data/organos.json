@@ -1,0 +1,2011 @@
+{
+ "generado": "2026-09-29T16:58 UTC",
+ "ejercicios": [
+  "2024",
+  "2025"
+ ],
+ "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito.",
+ "datos": {
+  "2024": {
+   "nivel1": [
+    {
+     "nivel1": "Estado",
+     "n": 355789,
+     "importe": 19105545417.75,
+     "pct_importe": 46.89
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "n": 609120,
+     "importe": 16825447023.39,
+     "pct_importe": 41.29
+    },
+    {
+     "nivel1": "Entidades locales",
+     "n": 220360,
+     "importe": 4769971116.96,
+     "pct_importe": 11.71
+    },
+    {
+     "nivel1": "Otros",
+     "n": 4127,
+     "importe": 48377429.09,
+     "pct_importe": 0.12
+    }
+   ],
+   "ministerios": [
+    {
+     "organo": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "n": 45972,
+     "importe": 6606095234.24,
+     "pct_importe": 16.21
+    },
+    {
+     "organo": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "n": 22264,
+     "importe": 3319234030.55,
+     "pct_importe": 8.15
+    },
+    {
+     "organo": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "n": 13146,
+     "importe": 2663848153.09,
+     "pct_importe": 6.54
+    },
+    {
+     "organo": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+     "n": 11887,
+     "importe": 1625295086.36,
+     "pct_importe": 3.99
+    },
+    {
+     "organo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "n": 79201,
+     "importe": 1383313221.33,
+     "pct_importe": 3.39
+    },
+    {
+     "organo": "MINISTERIO DE HACIENDA",
+     "n": 75787,
+     "importe": 1024268019.41,
+     "pct_importe": 2.51
+    },
+    {
+     "organo": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+     "n": 3789,
+     "importe": 459616387.18,
+     "pct_importe": 1.13
+    },
+    {
+     "organo": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+     "n": 812,
+     "importe": 419946277.58,
+     "pct_importe": 1.03
+    },
+    {
+     "organo": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+     "n": 88969,
+     "importe": 397959987.27,
+     "pct_importe": 0.98
+    },
+    {
+     "organo": "MINISTERIO DE JUVENTUD E INFANCIA",
+     "n": 968,
+     "importe": 196206972.05,
+     "pct_importe": 0.48
+    },
+    {
+     "organo": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+     "n": 384,
+     "importe": 195035480.27,
+     "pct_importe": 0.48
+    },
+    {
+     "organo": "MINISTERIO DE CULTURA",
+     "n": 3850,
+     "importe": 191372109.96,
+     "pct_importe": 0.47
+    },
+    {
+     "organo": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+     "n": 543,
+     "importe": 185511783.0,
+     "pct_importe": 0.46
+    },
+    {
+     "organo": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+     "n": 1259,
+     "importe": 175923209.34,
+     "pct_importe": 0.43
+    },
+    {
+     "organo": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+     "n": 5373,
+     "importe": 106819320.67,
+     "pct_importe": 0.26
+    },
+    {
+     "organo": "MINISTERIO DEL INTERIOR",
+     "n": 240,
+     "importe": 62114421.66,
+     "pct_importe": 0.15
+    },
+    {
+     "organo": "MINISTERIO DE IGUALDAD",
+     "n": 416,
+     "importe": 33192196.16,
+     "pct_importe": 0.08
+    },
+    {
+     "organo": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+     "n": 578,
+     "importe": 29201981.1,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "MINISTERIO DE SANIDAD",
+     "n": 242,
+     "importe": 24919880.49,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+     "n": 23,
+     "importe": 2465798.81,
+     "pct_importe": 0.01
+    },
+    {
+     "organo": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+     "n": 12,
+     "importe": 2415000.0,
+     "pct_importe": 0.01
+    },
+    {
+     "organo": "MINISTERIO DE DEFENSA",
+     "n": 74,
+     "importe": 790867.23,
+     "pct_importe": 0.0
+    }
+   ],
+   "comunidades": [
+    {
+     "organo": "COMUNITAT VALENCIANA",
+     "n": 66618,
+     "importe": 3156971496.53,
+     "pct_importe": 7.75
+    },
+    {
+     "organo": "CATALUÑA",
+     "n": 46534,
+     "importe": 2359870981.22,
+     "pct_importe": 5.79
+    },
+    {
+     "organo": "ANDALUCÍA",
+     "n": 43753,
+     "importe": 1857979438.12,
+     "pct_importe": 4.56
+    },
+    {
+     "organo": "COMUNIDAD DE MADRID",
+     "n": 29684,
+     "importe": 1353340140.41,
+     "pct_importe": 3.32
+    },
+    {
+     "organo": "CASTILLA Y LEÓN",
+     "n": 63227,
+     "importe": 1159027916.04,
+     "pct_importe": 2.84
+    },
+    {
+     "organo": "GALICIA",
+     "n": 59025,
+     "importe": 1100477468.86,
+     "pct_importe": 2.7
+    },
+    {
+     "organo": "CANARIAS",
+     "n": 7365,
+     "importe": 1087315544.21,
+     "pct_importe": 2.67
+    },
+    {
+     "organo": "CASTILLA-LA MANCHA",
+     "n": 112752,
+     "importe": 851373611.38,
+     "pct_importe": 2.09
+    },
+    {
+     "organo": "REGIÓN DE MURCIA",
+     "n": 19680,
+     "importe": 764624548.95,
+     "pct_importe": 1.88
+    },
+    {
+     "organo": "ARAGÓN",
+     "n": 25610,
+     "importe": 661931048.35,
+     "pct_importe": 1.62
+    },
+    {
+     "organo": "EXTREMADURA",
+     "n": 55546,
+     "importe": 577577943.97,
+     "pct_importe": 1.42
+    },
+    {
+     "organo": "PRINCIPADO DE ASTURIAS",
+     "n": 9553,
+     "importe": 532510732.91,
+     "pct_importe": 1.31
+    },
+    {
+     "organo": "ILLES BALEARS",
+     "n": 23902,
+     "importe": 380349489.82,
+     "pct_importe": 0.93
+    },
+    {
+     "organo": "COMUNIDAD FORAL DE NAVARRA",
+     "n": 7953,
+     "importe": 304227853.15,
+     "pct_importe": 0.75
+    },
+    {
+     "organo": "LA RIOJA",
+     "n": 13205,
+     "importe": 280666190.68,
+     "pct_importe": 0.69
+    },
+    {
+     "organo": "CANTABRIA",
+     "n": 16303,
+     "importe": 201924417.65,
+     "pct_importe": 0.5
+    },
+    {
+     "organo": "PAÍS VASCO",
+     "n": 7435,
+     "importe": 123947631.26,
+     "pct_importe": 0.3
+    },
+    {
+     "organo": "CIUDAD AUTÓNOMA DE MELILLA",
+     "n": 544,
+     "importe": 36298513.51,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "CIUDAD AUTÓNOMA DE CEUTA",
+     "n": 431,
+     "importe": 35032056.37,
+     "pct_importe": 0.09
+    }
+   ],
+   "entidades_locales_top50": [
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE BARCELONA",
+     "n": 15468,
+     "importe": 669244867.43,
+     "pct_importe": 1.64
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
+     "n": 3154,
+     "importe": 268047397.26,
+     "pct_importe": 0.66
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TARRAGONA",
+     "n": 6220,
+     "importe": 197544797.66,
+     "pct_importe": 0.48
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE",
+     "n": 6645,
+     "importe": 183935410.17,
+     "pct_importe": 0.45
+    },
+    {
+     "organo": "CABILDO INSULAR DE GRAN CANARIA",
+     "n": 2624,
+     "importe": 158741143.3,
+     "pct_importe": 0.39
+    },
+    {
+     "organo": "CABILDO INSULAR DE TENERIFE",
+     "n": 1833,
+     "importe": 147809946.49,
+     "pct_importe": 0.36
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE MÁLAGA",
+     "n": 2307,
+     "importe": 134784736.52,
+     "pct_importe": 0.33
+    },
+    {
+     "organo": "DIPUTACIÓN FORAL DE BIZKAIA",
+     "n": 5226,
+     "importe": 125211169.2,
+     "pct_importe": 0.31
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+     "n": 6469,
+     "importe": 104426566.45,
+     "pct_importe": 0.26
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÓRDOBA",
+     "n": 4235,
+     "importe": 102908930.05,
+     "pct_importe": 0.25
+    },
+    {
+     "organo": "AUTORIDAD ÚNICA DEL TRANSPORTE",
+     "n": 23,
+     "importe": 101871454.65,
+     "pct_importe": 0.25
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÁDIZ",
+     "n": 1330,
+     "importe": 100669402.83,
+     "pct_importe": 0.25
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE LEÓN",
+     "n": 2728,
+     "importe": 90480373.83,
+     "pct_importe": 0.22
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ZARAGOZA",
+     "n": 3750,
+     "importe": 87820826.45,
+     "pct_importe": 0.22
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GRANADA",
+     "n": 3806,
+     "importe": 80168394.33,
+     "pct_importe": 0.2
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+     "n": 3694,
+     "importe": 77970425.63,
+     "pct_importe": 0.19
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CASTELLÓ/CASTELLÓN",
+     "n": 3544,
+     "importe": 76338299.25,
+     "pct_importe": 0.19
+    },
+    {
+     "organo": "CABILDO INSULAR DE LANZAROTE",
+     "n": 444,
+     "importe": 71185708.09,
+     "pct_importe": 0.17
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE LLEIDA",
+     "n": 1561,
+     "importe": 69200134.24,
+     "pct_importe": 0.17
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE BADAJOZ",
+     "n": 3677,
+     "importe": 68087143.57,
+     "pct_importe": 0.17
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TOLEDO",
+     "n": 3540,
+     "importe": 63080414.6,
+     "pct_importe": 0.15
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CIUDAD REAL",
+     "n": 2030,
+     "importe": 62889714.03,
+     "pct_importe": 0.15
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÁCERES",
+     "n": 2736,
+     "importe": 60343108.05,
+     "pct_importe": 0.15
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CORUÑA, A",
+     "n": 2752,
+     "importe": 51859097.72,
+     "pct_importe": 0.13
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE JAÉN",
+     "n": 2232,
+     "importe": 50557486.35,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE VALLADOLID",
+     "n": 4670,
+     "importe": 49827603.93,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DEPARTAMENTO DE PROMOCIÓN ECONÓMICA Y DESARROLLO LOCAL",
+     "n": 293,
+     "importe": 49606478.02,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE BURGOS",
+     "n": 3444,
+     "importe": 49090932.82,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE HUESCA",
+     "n": 2019,
+     "importe": 48051420.92,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "AYUNTAMIENTO DE BARCELONA",
+     "n": 6618,
+     "importe": 43678919.63,
+     "pct_importe": 0.11
+    },
+    {
+     "organo": "AYUNTAMIENTO DE VALENCIA",
+     "n": 3036,
+     "importe": 42276106.92,
+     "pct_importe": 0.1
+    },
+    {
+     "organo": "AYUNTAMIENTO DE MURCIA",
+     "n": 443,
+     "importe": 40514132.33,
+     "pct_importe": 0.1
+    },
+    {
+     "organo": "CONSELL INSULAR DE IBIZA",
+     "n": 319,
+     "importe": 35633481.86,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "EXCMO. CABILDO INSULAR DE LA PALMA",
+     "n": 593,
+     "importe": 35033619.38,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE OURENSE",
+     "n": 184,
+     "importe": 34650698.82,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GUADALAJARA",
+     "n": 2169,
+     "importe": 31045060.62,
+     "pct_importe": 0.08
+    },
+    {
+     "organo": "ÁREA DE GOBIERNO DE POLÍTICAS SOCIALES, FAMILIA E IGUALDAD",
+     "n": 339,
+     "importe": 28163903.96,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALBACETE",
+     "n": 2349,
+     "importe": 28079803.95,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TERUEL",
+     "n": 1869,
+     "importe": 27695575.63,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "AYUNTAMIENTO DE BILBAO",
+     "n": 1199,
+     "importe": 26153623.69,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "CABILDO INSULAR DE FUERTEVENTURA",
+     "n": 702,
+     "importe": 23936083.11,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "ÁREA DE GOBIERNO DE VICEALCALDÍA, PORTAVOZ, SEGURIDAD Y EMERGENCIAS",
+     "n": 142,
+     "importe": 20955145.91,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN DE SALAMANCA",
+     "n": 1743,
+     "importe": 20928570.42,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ZAMORA",
+     "n": 1839,
+     "importe": 20581497.25,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "AYUNTAMIENTO DE VALLADOLID",
+     "n": 505,
+     "importe": 18442741.11,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE PALENCIA",
+     "n": 2446,
+     "importe": 18108790.73,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "AYUNTAMIENTO DE ALICANTE/ALACANT",
+     "n": 861,
+     "importe": 17484532.26,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ÁVILA",
+     "n": 2712,
+     "importe": 17218407.19,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "AYUNTAMIENTO DE LOGROÑO",
+     "n": 247,
+     "importe": 16471308.79,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "ÁREA DE GOBIERNO DE CULTURA, TURISMO Y DEPORTE",
+     "n": 406,
+     "importe": 16150487.69,
+     "pct_importe": 0.04
+    }
+   ],
+   "organos_top50": [
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA ENERGÉTICA Y MINAS",
+     "n": 43542,
+     "importe": 4333477672.51,
+     "pct_importe": 10.63
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "DIRECCIÓN GENERAL DE ESTRATEGIA INDUSTRIAL Y DE LA PEQUEÑA Y MEDIANA EMPRESA",
+     "n": 1809,
+     "importe": 1635945015.88,
+     "pct_importe": 4.01
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+     "organo": "INSTITUTO DE CRÉDITO OFICIAL",
+     "n": 9631,
+     "importe": 1610915886.3,
+     "pct_importe": 3.95
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)",
+     "n": 1462,
+     "importe": 1561127829.86,
+     "pct_importe": 3.83
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "AGENCIA ESTATAL DE INVESTIGACIÓN",
+     "n": 9900,
+     "importe": 1542268399.69,
+     "pct_importe": 3.78
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARÍA AUTONÓMICA DE UNIVERSIDADES",
+     "n": 286,
+     "importe": 1297082259.74,
+     "pct_importe": 3.18
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+     "n": 12880,
+     "importe": 1203223079.92,
+     "pct_importe": 2.95
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+     "n": 1201,
+     "importe": 672917693.04,
+     "pct_importe": 1.65
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE BARCELONA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE BARCELONA",
+     "n": 15468,
+     "importe": 669244867.43,
+     "pct_importe": 1.64
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "organo": "SECRETARÍA DE ESTADO DE TELECOMUNICACIONES E INFRAESTRUCTURAS DIGITALES",
+     "n": 196,
+     "importe": 652028990.56,
+     "pct_importe": 1.6
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+     "n": 78881,
+     "importe": 626684805.71,
+     "pct_importe": 1.54
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "n": 8858,
+     "importe": 520870769.77,
+     "pct_importe": 1.28
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE HACIENDA",
+     "organo": "DIRECCIÓN GENERAL DE FONDOS EUROPEOS",
+     "n": 200,
+     "importe": 509061522.16,
+     "pct_importe": 1.25
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE HACIENDA",
+     "organo": "AGENCIA ESTATAL DE ADMINISTRACIÓN TRIBUTARIA",
+     "n": 75456,
+     "importe": 478019590.7,
+     "pct_importe": 1.17
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "n": 12260,
+     "importe": 386891932.16,
+     "pct_importe": 0.95
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "n": 18326,
+     "importe": 382081921.12,
+     "pct_importe": 0.94
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "n": 18766,
+     "importe": 381153135.06,
+     "pct_importe": 0.94
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "DIRECCIÓN GENERAL DEL AGUA",
+     "n": 295,
+     "importe": 378636475.9,
+     "pct_importe": 0.93
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+     "organo": "DIRECCIÓN GENERAL DE COOPERACIÓN AUTONÓMICA Y LOCAL",
+     "n": 145,
+     "importe": 312073868.25,
+     "pct_importe": 0.77
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "n": 3338,
+     "importe": 308196851.03,
+     "pct_importe": 0.76
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+     "n": 3717,
+     "importe": 303302706.39,
+     "pct_importe": 0.74
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "INSTITUTO DE SALUD CARLOS III (ISCIII)",
+     "n": 1469,
+     "importe": 297549678.46,
+     "pct_importe": 0.73
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "SECRETARÍA DE ESTADO DE TURISMO",
+     "n": 707,
+     "importe": 293790487.97,
+     "pct_importe": 0.72
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "REGIÓN DE MURCIA",
+     "organo": "CONSEJERÍA DE MEDIO AMBIENTE, INDUSTRIA, UNIVERSIDADES, INVESTIGACIÓN Y MAR MENOR",
+     "n": 1459,
+     "importe": 293258716.45,
+     "pct_importe": 0.72
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARÍA AUTONÓMICA DE EDUCACIÓN",
+     "n": 6232,
+     "importe": 269245869.05,
+     "pct_importe": 0.66
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE SEVILLA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
+     "n": 3154,
+     "importe": 268047397.26,
+     "pct_importe": 0.66
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "GALICIA",
+     "organo": "CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "n": 6283,
+     "importe": 257241680.66,
+     "pct_importe": 0.63
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "DEPARTAMENT D'EMPRESA I TREBALL  ",
+     "n": 1425,
+     "importe": 256994051.06,
+     "pct_importe": 0.63
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "DIRECCIÓN GENERAL DE EMPLEO Y FORMACIÓN",
+     "n": 3802,
+     "importe": 254332222.36,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA DE EDUCACIÓN, CIENCIA Y UNIVERSIDADES",
+     "n": 525,
+     "importe": 252220279.71,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CASTILLA-LA MANCHA",
+     "organo": "DIRECCIÓN GENERAL AGRICULTURA Y GANADERÍA",
+     "n": 94678,
+     "importe": 244611407.61,
+     "pct_importe": 0.6
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CASTILLA Y LEÓN",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA AGRARIA COMUNITARIA",
+     "n": 37139,
+     "importe": 243498895.41,
+     "pct_importe": 0.6
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CANARIAS",
+     "organo": "SERVICIO CANARIO DE EMPLEO",
+     "n": 1658,
+     "importe": 243075304.9,
+     "pct_importe": 0.6
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "EXTREMADURA",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA AGRARIA COMUNITARIA",
+     "n": 42615,
+     "importe": 232747024.51,
+     "pct_importe": 0.57
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA DE PRESIDENCIA, JUSTICIA Y ADMINISTRACIÓN LOCAL",
+     "n": 1131,
+     "importe": 214522634.74,
+     "pct_importe": 0.53
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE TARRAGONA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE TARRAGONA",
+     "n": 6220,
+     "importe": 197544797.66,
+     "pct_importe": 0.48
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+     "organo": "ENTIDAD ESTATAL DE SEGUROS AGRARIOS - ENESA",
+     "n": 63284,
+     "importe": 195356280.29,
+     "pct_importe": 0.48
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA DE VIVIENDA, TRANSPORTES E INFRAESTRUCTURAS",
+     "n": 468,
+     "importe": 193571511.13,
+     "pct_importe": 0.48
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+     "organo": "AGENCIA ESTATAL AGENCIA ESPAÑOLA DE COOPERACIÓN INTERNACIONAL PARA EL DESARROLLO",
+     "n": 257,
+     "importe": 193563765.0,
+     "pct_importe": 0.48
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE ALICANTE",
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE",
+     "n": 6645,
+     "importe": 183935410.17,
+     "pct_importe": 0.45
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "INSTITUTO VALENCIANO DE COMPETITIVIDAD EMPRESARIAL (IVACE)",
+     "n": 4389,
+     "importe": 180251223.74,
+     "pct_importe": 0.44
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CANARIAS",
+     "organo": "CONSEJERÍA DE OBRAS PÚBLICAS, VIVIENDA Y MOVILIDAD",
+     "n": 125,
+     "importe": 166063592.63,
+     "pct_importe": 0.41
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "INSTITUT VALENCIÀ DE FINANCES",
+     "n": 895,
+     "importe": 164384116.51,
+     "pct_importe": 0.4
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "PRINCIPADO DE ASTURIAS",
+     "organo": "CONSEJERÍA DE DERECHOS SOCIALES Y BIENESTAR",
+     "n": 988,
+     "importe": 161165302.83,
+     "pct_importe": 0.4
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "CABILDO INSULAR DE GRAN CANARIA",
+     "organo": "CABILDO INSULAR DE GRAN CANARIA",
+     "n": 2624,
+     "importe": 158741143.3,
+     "pct_importe": 0.39
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARIA AUTONÓMICA DE INDUSTRIA, COMERCIO Y CONSUMO",
+     "n": 7957,
+     "importe": 158168145.44,
+     "pct_importe": 0.39
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE JUVENTUD E INFANCIA",
+     "organo": "DIRECCIÓN GENERAL DE DERECHOS DE LA INFANCIA Y DE LA ADOLESCENCIA",
+     "n": 73,
+     "importe": 157012744.5,
+     "pct_importe": 0.39
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+     "organo": "FONDO ESPAÑOL DE GARANTÍA AGRARIA",
+     "n": 22505,
+     "importe": 156404774.56,
+     "pct_importe": 0.38
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "CABILDO INSULAR DE TENERIFE",
+     "organo": "CABILDO INSULAR DE TENERIFE",
+     "n": 1833,
+     "importe": 147809946.49,
+     "pct_importe": 0.36
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE FOMENTO ARTICULACIÓN DEL TERRITORIO Y VIVIENDA",
+     "n": 1171,
+     "importe": 144882843.19,
+     "pct_importe": 0.36
+    }
+   ]
+  },
+  "2025": {
+   "nivel1": [
+    {
+     "nivel1": "Estado",
+     "n": 260920,
+     "importe": 22608502920.45,
+     "pct_importe": 50.45
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "n": 514672,
+     "importe": 17772896677.42,
+     "pct_importe": 39.66
+    },
+    {
+     "nivel1": "Entidades locales",
+     "n": 214381,
+     "importe": 4389019005.43,
+     "pct_importe": 9.79
+    },
+    {
+     "nivel1": "Otros",
+     "n": 2069,
+     "importe": 40276509.72,
+     "pct_importe": 0.09
+    }
+   ],
+   "ministerios": [
+    {
+     "organo": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "n": 2738,
+     "importe": 7058275937.21,
+     "pct_importe": 15.75
+    },
+    {
+     "organo": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "n": 20356,
+     "importe": 3272544754.09,
+     "pct_importe": 7.3
+    },
+    {
+     "organo": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "n": 12784,
+     "importe": 2814990928.18,
+     "pct_importe": 6.28
+    },
+    {
+     "organo": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+     "n": 1869,
+     "importe": 2021467373.98,
+     "pct_importe": 4.51
+    },
+    {
+     "organo": "MINISTERIO DE HACIENDA",
+     "n": 7431,
+     "importe": 1878904836.2,
+     "pct_importe": 4.19
+    },
+    {
+     "organo": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+     "n": 14855,
+     "importe": 1268854072.15,
+     "pct_importe": 2.83
+    },
+    {
+     "organo": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+     "n": 6536,
+     "importe": 991874845.33,
+     "pct_importe": 2.21
+    },
+    {
+     "organo": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "n": 103034,
+     "importe": 947605986.61,
+     "pct_importe": 2.11
+    },
+    {
+     "organo": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+     "n": 6358,
+     "importe": 780761155.61,
+     "pct_importe": 1.74
+    },
+    {
+     "organo": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+     "n": 75823,
+     "importe": 317574768.57,
+     "pct_importe": 0.71
+    },
+    {
+     "organo": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+     "n": 2034,
+     "importe": 311429146.97,
+     "pct_importe": 0.69
+    },
+    {
+     "organo": "MINISTERIO DE CULTURA",
+     "n": 3155,
+     "importe": 222926570.67,
+     "pct_importe": 0.5
+    },
+    {
+     "organo": "MINISTERIO DE JUVENTUD E INFANCIA",
+     "n": 1097,
+     "importe": 175303894.95,
+     "pct_importe": 0.39
+    },
+    {
+     "organo": "MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030",
+     "n": 536,
+     "importe": 158534640.47,
+     "pct_importe": 0.35
+    },
+    {
+     "organo": "MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN",
+     "n": 383,
+     "importe": 122712803.03,
+     "pct_importe": 0.27
+    },
+    {
+     "organo": "MINISTERIO DE VIVIENDA Y AGENDA URBANA",
+     "n": 231,
+     "importe": 111561833.33,
+     "pct_importe": 0.25
+    },
+    {
+     "organo": "MINISTERIO DEL INTERIOR",
+     "n": 192,
+     "importe": 62902643.95,
+     "pct_importe": 0.14
+    },
+    {
+     "organo": "MINISTERIO DE IGUALDAD",
+     "n": 463,
+     "importe": 40431147.61,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES",
+     "n": 691,
+     "importe": 30473335.59,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "MINISTERIO DE SANIDAD",
+     "n": 262,
+     "importe": 17285660.51,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES",
+     "n": 26,
+     "importe": 1353109.7,
+     "pct_importe": 0.0
+    },
+    {
+     "organo": "MINISTERIO DE DEFENSA",
+     "n": 66,
+     "importe": 733475.74,
+     "pct_importe": 0.0
+    }
+   ],
+   "comunidades": [
+    {
+     "organo": "COMUNITAT VALENCIANA",
+     "n": 59728,
+     "importe": 4268155590.04,
+     "pct_importe": 9.52
+    },
+    {
+     "organo": "CATALUÑA",
+     "n": 44722,
+     "importe": 2542879019.73,
+     "pct_importe": 5.67
+    },
+    {
+     "organo": "ANDALUCÍA",
+     "n": 41156,
+     "importe": 1811081912.19,
+     "pct_importe": 4.04
+    },
+    {
+     "organo": "COMUNIDAD DE MADRID",
+     "n": 26009,
+     "importe": 1346337301.95,
+     "pct_importe": 3.0
+    },
+    {
+     "organo": "CASTILLA Y LEÓN",
+     "n": 65553,
+     "importe": 1287584206.01,
+     "pct_importe": 2.87
+    },
+    {
+     "organo": "GALICIA",
+     "n": 62206,
+     "importe": 1093736641.34,
+     "pct_importe": 2.44
+    },
+    {
+     "organo": "CANARIAS",
+     "n": 7365,
+     "importe": 901714598.7,
+     "pct_importe": 2.01
+    },
+    {
+     "organo": "CASTILLA-LA MANCHA",
+     "n": 42328,
+     "importe": 860441733.07,
+     "pct_importe": 1.92
+    },
+    {
+     "organo": "REGIÓN DE MURCIA",
+     "n": 19021,
+     "importe": 712957728.91,
+     "pct_importe": 1.59
+    },
+    {
+     "organo": "EXTREMADURA",
+     "n": 55677,
+     "importe": 618645748.98,
+     "pct_importe": 1.38
+    },
+    {
+     "organo": "ARAGÓN",
+     "n": 21354,
+     "importe": 605287872.91,
+     "pct_importe": 1.35
+    },
+    {
+     "organo": "ILLES BALEARS",
+     "n": 19286,
+     "importe": 419470826.82,
+     "pct_importe": 0.94
+    },
+    {
+     "organo": "COMUNIDAD FORAL DE NAVARRA",
+     "n": 9850,
+     "importe": 369099311.7,
+     "pct_importe": 0.82
+    },
+    {
+     "organo": "PRINCIPADO DE ASTURIAS",
+     "n": 8534,
+     "importe": 333548162.63,
+     "pct_importe": 0.74
+    },
+    {
+     "organo": "LA RIOJA",
+     "n": 12029,
+     "importe": 233098336.59,
+     "pct_importe": 0.52
+    },
+    {
+     "organo": "CANTABRIA",
+     "n": 15504,
+     "importe": 218036571.11,
+     "pct_importe": 0.49
+    },
+    {
+     "organo": "PAÍS VASCO",
+     "n": 3111,
+     "importe": 56059573.1,
+     "pct_importe": 0.13
+    },
+    {
+     "organo": "CIUDAD AUTÓNOMA DE MELILLA",
+     "n": 751,
+     "importe": 48054381.17,
+     "pct_importe": 0.11
+    },
+    {
+     "organo": "CIUDAD AUTÓNOMA DE CEUTA",
+     "n": 488,
+     "importe": 46707160.47,
+     "pct_importe": 0.1
+    }
+   ],
+   "entidades_locales_top50": [
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE BARCELONA",
+     "n": 14877,
+     "importe": 593902442.16,
+     "pct_importe": 1.33
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+     "n": 7151,
+     "importe": 286917477.25,
+     "pct_importe": 0.64
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ZARAGOZA",
+     "n": 4402,
+     "importe": 269347744.85,
+     "pct_importe": 0.6
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
+     "n": 1968,
+     "importe": 242079879.25,
+     "pct_importe": 0.54
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE MÁLAGA",
+     "n": 2846,
+     "importe": 147426433.22,
+     "pct_importe": 0.33
+    },
+    {
+     "organo": "DIPUTACIÓN FORAL DE BIZKAIA",
+     "n": 5186,
+     "importe": 129820490.46,
+     "pct_importe": 0.29
+    },
+    {
+     "organo": "CABILDO INSULAR DE TENERIFE",
+     "n": 2175,
+     "importe": 121928934.66,
+     "pct_importe": 0.27
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GIRONA",
+     "n": 3599,
+     "importe": 105039608.34,
+     "pct_importe": 0.23
+    },
+    {
+     "organo": "CABILDO INSULAR DE GRAN CANARIA",
+     "n": 2289,
+     "importe": 99201006.0,
+     "pct_importe": 0.22
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CIUDAD REAL",
+     "n": 2300,
+     "importe": 91060783.7,
+     "pct_importe": 0.2
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALACANT/ALICANTE",
+     "n": 4944,
+     "importe": 81088832.93,
+     "pct_importe": 0.18
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÁDIZ",
+     "n": 1628,
+     "importe": 78922296.86,
+     "pct_importe": 0.18
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TOLEDO",
+     "n": 5782,
+     "importe": 78300431.82,
+     "pct_importe": 0.17
+    },
+    {
+     "organo": "AUTORIDAD ÚNICA DEL TRANSPORTE",
+     "n": 14,
+     "importe": 74803718.98,
+     "pct_importe": 0.17
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE BADAJOZ",
+     "n": 4050,
+     "importe": 72079566.79,
+     "pct_importe": 0.16
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÁCERES",
+     "n": 2576,
+     "importe": 63174257.52,
+     "pct_importe": 0.14
+    },
+    {
+     "organo": "COOPERACIÓN COS MUNICIPIOS",
+     "n": 672,
+     "importe": 62507439.27,
+     "pct_importe": 0.14
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GRANADA",
+     "n": 4634,
+     "importe": 62151948.76,
+     "pct_importe": 0.14
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE JAÉN",
+     "n": 2717,
+     "importe": 60923616.51,
+     "pct_importe": 0.14
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CÓRDOBA",
+     "n": 4492,
+     "importe": 57452297.27,
+     "pct_importe": 0.13
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE HUESCA",
+     "n": 2390,
+     "importe": 54308043.14,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "AYUNTAMIENTO DE MURCIA",
+     "n": 453,
+     "importe": 54008518.64,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TARRAGONA",
+     "n": 4901,
+     "importe": 53108177.97,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CORUÑA, A",
+     "n": 2807,
+     "importe": 51714253.02,
+     "pct_importe": 0.12
+    },
+    {
+     "organo": "CONSELL INSULAR DE IBIZA",
+     "n": 467,
+     "importe": 51058873.23,
+     "pct_importe": 0.11
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE VALLADOLID",
+     "n": 3740,
+     "importe": 47178876.41,
+     "pct_importe": 0.11
+    },
+    {
+     "organo": "AYUNTAMIENTO DE VALENCIA",
+     "n": 2930,
+     "importe": 45951214.38,
+     "pct_importe": 0.1
+    },
+    {
+     "organo": "EXCMO. CABILDO INSULAR DE LA PALMA",
+     "n": 935,
+     "importe": 45455138.43,
+     "pct_importe": 0.1
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE LLEIDA",
+     "n": 1196,
+     "importe": 38449703.78,
+     "pct_importe": 0.09
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE LEÓN",
+     "n": 1964,
+     "importe": 34996287.94,
+     "pct_importe": 0.08
+    },
+    {
+     "organo": "CABILDO INSULAR DE LANZAROTE",
+     "n": 505,
+     "importe": 30831112.84,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ZAMORA",
+     "n": 2241,
+     "importe": 30727588.19,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE CASTELLÓ/CASTELLÓN",
+     "n": 3079,
+     "importe": 30087873.88,
+     "pct_importe": 0.07
+    },
+    {
+     "organo": "DIPUTACIÓN DE SALAMANCA",
+     "n": 1923,
+     "importe": 28874608.71,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "ÁREA DE GOBIERNO DE POLÍTICAS SOCIALES, FAMILIA E IGUALDAD",
+     "n": 278,
+     "importe": 27449300.31,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "AYUNTAMIENTO DE BILBAO",
+     "n": 1436,
+     "importe": 26910862.13,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALMERÍA",
+     "n": 1812,
+     "importe": 25656516.99,
+     "pct_importe": 0.06
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ALBACETE",
+     "n": 2339,
+     "importe": 24577540.13,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE GUADALAJARA",
+     "n": 1991,
+     "importe": 23906438.69,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "AYUNTAMIENTO DE BARCELONA",
+     "n": 4600,
+     "importe": 23120328.87,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE PALENCIA",
+     "n": 2635,
+     "importe": 22435322.22,
+     "pct_importe": 0.05
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE TERUEL",
+     "n": 1658,
+     "importe": 18456796.23,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "ÁREA DE GOBIERNO DE ECONOMÍA, INNOVACIÓN Y HACIENDA",
+     "n": 464,
+     "importe": 16820627.67,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "AYUNTAMIENTO DE LOGROÑO",
+     "n": 302,
+     "importe": 16297666.1,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "AYUNTAMIENTO DE CARTAGENA",
+     "n": 1225,
+     "importe": 16129437.59,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "DIPUTACIÓN PROVINCIAL DE ÁVILA",
+     "n": 2465,
+     "importe": 15945230.64,
+     "pct_importe": 0.04
+    },
+    {
+     "organo": "AYUNTAMIENTO DE MÁLAGA",
+     "n": 1434,
+     "importe": 14130930.31,
+     "pct_importe": 0.03
+    },
+    {
+     "organo": "AYUNTAMIENTO DE VALLADOLID",
+     "n": 481,
+     "importe": 13851286.34,
+     "pct_importe": 0.03
+    },
+    {
+     "organo": "INSTITUTO INS. DE DEPORTES DE GRAN CANARIA",
+     "n": 857,
+     "importe": 12296086.72,
+     "pct_importe": 0.03
+    },
+    {
+     "organo": "AYUNTAMIENTO DE GIJÓN",
+     "n": 752,
+     "importe": 11881564.4,
+     "pct_importe": 0.03
+    }
+   ],
+   "organos_top50": [
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "INSTITUTO PARA LA DIVERSIFICACIÓN Y AHORRO DE LA ENERGÍA (IDAE)",
+     "n": 1785,
+     "importe": 5402766183.73,
+     "pct_importe": 12.06
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA",
+     "organo": "DIRECCIÓN GENERAL DE COOPERACIÓN AUTONÓMICA Y LOCAL",
+     "n": 147,
+     "importe": 1899092279.3,
+     "pct_importe": 4.24
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE HACIENDA",
+     "organo": "AGENCIA ESTATAL DE ADMINISTRACIÓN TRIBUTARIA",
+     "n": 7217,
+     "importe": 1483812059.34,
+     "pct_importe": 3.31
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "COMPAÑÍA ESPAÑOLA DE REAFIANZAMIENTO, S.M.E., S.A.",
+     "n": 12879,
+     "importe": 1382169166.49,
+     "pct_importe": 3.08
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "AGENCIA ESTATAL DE INVESTIGACIÓN",
+     "n": 9440,
+     "importe": 1338434526.48,
+     "pct_importe": 2.99
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARÍA AUTONÓMICA DE SISTEMA SOCIOSANITARIO",
+     "n": 587,
+     "importe": 1243716932.78,
+     "pct_importe": 2.78
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARÍA AUTONÓMICA DE UNIVERSIDADES",
+     "n": 299,
+     "importe": 1141510271.26,
+     "pct_importe": 2.55
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "CENTRO PARA EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN E.P.E",
+     "n": 1447,
+     "importe": 996125453.09,
+     "pct_importe": 2.22
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA",
+     "organo": "INSTITUTO DE CRÉDITO OFICIAL",
+     "n": 4417,
+     "importe": 966714326.59,
+     "pct_importe": 2.16
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "DIRECCIÓN GENERAL DE ESTRATEGIA INDUSTRIAL Y DE LA PEQUEÑA Y MEDIANA EMPRESA",
+     "n": 578,
+     "importe": 905177760.36,
+     "pct_importe": 2.02
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+     "organo": "DIRECCIÓN GENERAL DE ESTRATEGIAS DE MOVILIDAD",
+     "n": 295,
+     "importe": 844159717.34,
+     "pct_importe": 1.88
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA ENERGÉTICA Y MINAS",
+     "n": 3,
+     "importe": 763135632.56,
+     "pct_importe": 1.7
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE INDUSTRIA Y TURISMO",
+     "organo": "DIRECCIÓN GENERAL DE PROGRAMAS INDUSTRIALES",
+     "n": 2575,
+     "importe": 757537061.57,
+     "pct_importe": 1.69
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO",
+     "organo": "DIRECCIÓN GENERAL DEL AGUA",
+     "n": 349,
+     "importe": 654298640.66,
+     "pct_importe": 1.46
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE BARCELONA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE BARCELONA",
+     "n": 14877,
+     "importe": 593902442.16,
+     "pct_importe": 1.33
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "organo": "ENTIDAD PÚBLICA EMPRESARIAL RED.ES",
+     "n": 102716,
+     "importe": 592017476.18,
+     "pct_importe": 1.32
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA ECONOMÍA, HACIENDA Y EMPLEO",
+     "n": 13840,
+     "importe": 498234342.89,
+     "pct_importe": 1.11
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE EMPLEO, EMPRESA Y TRABAJO AUTÓNOMO",
+     "n": 10884,
+     "importe": 482803721.34,
+     "pct_importe": 1.08
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE",
+     "organo": "DIRECCIÓN GENERAL DE CARRETERAS",
+     "n": 3,
+     "importe": 410000000.0,
+     "pct_importe": 0.91
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL",
+     "organo": "SERVICIO PÚBLICO DE EMPLEO ESTATAL",
+     "n": 1799,
+     "importe": 340077642.92,
+     "pct_importe": 0.76
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE HACIENDA",
+     "organo": "DIRECCIÓN GENERAL DE FONDOS EUROPEOS",
+     "n": 116,
+     "importe": 333941980.65,
+     "pct_importe": 0.75
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "DEPARTAMENT D'EMPRESA I TREBALL  ",
+     "n": 2357,
+     "importe": 292823009.01,
+     "pct_importe": 0.65
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE VALENCIA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE VALENCIA",
+     "n": 7151,
+     "importe": 286917477.25,
+     "pct_importe": 0.64
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "REGIÓN DE MURCIA",
+     "organo": "CONSEJERÍA DE MEDIO AMBIENTE, INDUSTRIA, UNIVERSIDADES, INVESTIGACIÓN Y MAR MENOR",
+     "n": 516,
+     "importe": 280457578.55,
+     "pct_importe": 0.63
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "DEPARTAMENT D'AGRICULTURA, RAMADERIA, PESCA I ALIMENTACIÓ",
+     "n": 13578,
+     "importe": 280049473.09,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA DE PRESIDENCIA, JUSTICIA Y ADMINISTRACIÓN LOCAL",
+     "n": 1225,
+     "importe": 278476053.27,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "SERVICIO PÚBLICO DE EMPLEO DE CATALUÑA",
+     "n": 3707,
+     "importe": 278328463.41,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "DIRECCIÓN GENERAL DE EMPLEO Y FORMACIÓN",
+     "n": 3550,
+     "importe": 277008401.59,
+     "pct_importe": 0.62
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE AGRICULTURA, PESCA, AGUA Y DESARROLLO RURAL",
+     "n": 17473,
+     "importe": 272520472.31,
+     "pct_importe": 0.61
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE ZARAGOZA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE ZARAGOZA",
+     "n": 4402,
+     "importe": 269347744.85,
+     "pct_importe": 0.6
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARÍA AUTONÓMICA DE EDUCACIÓN",
+     "n": 6837,
+     "importe": 260200593.44,
+     "pct_importe": 0.58
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CASTILLA Y LEÓN",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA AGRARIA COMUNITARIA",
+     "n": 36088,
+     "importe": 247755093.74,
+     "pct_importe": 0.55
+    },
+    {
+     "nivel1": "Entidades locales",
+     "nivel2": "DIPUTACIÓN PROV. DE SEVILLA",
+     "organo": "DIPUTACIÓN PROVINCIAL DE SEVILLA",
+     "n": 1968,
+     "importe": 242079879.25,
+     "pct_importe": 0.54
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA",
+     "organo": "SECRETARÍA DE ESTADO DE TELECOMUNICACIONES E INFRAESTRUCTURAS DIGITALES",
+     "n": 99,
+     "importe": 237946276.32,
+     "pct_importe": 0.53
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CANARIAS",
+     "organo": "SERVICIO CANARIO DE EMPLEO",
+     "n": 938,
+     "importe": 231871273.95,
+     "pct_importe": 0.52
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "INSTITUTO VALENCIANO DE COMPETITIVIDAD EMPRESARIAL (IVACE)",
+     "n": 4731,
+     "importe": 228910644.07,
+     "pct_importe": 0.51
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CASTILLA-LA MANCHA",
+     "organo": "DIRECCIÓN GENERAL AGRICULTURA Y GANADERÍA",
+     "n": 18997,
+     "importe": 228822189.47,
+     "pct_importe": 0.51
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNIDAD DE MADRID",
+     "organo": "CONSEJERÍA DE EDUCACIÓN, CIENCIA Y UNIVERSIDADES",
+     "n": 641,
+     "importe": 225404812.46,
+     "pct_importe": 0.5
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "CATALUÑA",
+     "organo": "DEPARTAMENT DE DRETS SOCIALS I INCLUSIÓ",
+     "n": 2024,
+     "importe": 201792206.46,
+     "pct_importe": 0.45
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "SERVICIO ANDALUZ DE EMPLEO",
+     "n": 437,
+     "importe": 197061712.86,
+     "pct_importe": 0.44
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "EXTREMADURA",
+     "organo": "DIRECCIÓN GENERAL DE POLÍTICA AGRARIA COMUNITARIA",
+     "n": 41655,
+     "importe": 193326303.95,
+     "pct_importe": 0.43
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES",
+     "organo": "INSTITUTO DE SALUD CARLOS III (ISCIII)",
+     "n": 1280,
+     "importe": 192262360.35,
+     "pct_importe": 0.43
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "GALICIA",
+     "organo": "CONSELLERÍA DE EMPLEO, COMERCIO Y EMIGRACIÓN",
+     "n": 6556,
+     "importe": 184073623.5,
+     "pct_importe": 0.41
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE INCLUSIÓN SOCIAL, JUVENTUD, FAMILIAS E IGUALDAD",
+     "n": 3486,
+     "importe": 175616345.85,
+     "pct_importe": 0.39
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN",
+     "organo": "ENTIDAD ESTATAL DE SEGUROS AGRARIOS - ENESA",
+     "n": 69659,
+     "importe": 174355054.04,
+     "pct_importe": 0.39
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+     "organo": "CONSEJO SUPERIOR DE DEPORTES",
+     "n": 651,
+     "importe": 153192455.01,
+     "pct_importe": 0.34
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "GALICIA",
+     "organo": "CONSELLERÍA DE POLÍTICA SOCIAL E IGUALDAD",
+     "n": 1702,
+     "importe": 152825142.03,
+     "pct_importe": 0.34
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "ANDALUCÍA",
+     "organo": "CONSEJERÍA DE UNIVERSIDAD, INVESTIGACIÓN E INNOVACIÓN",
+     "n": 276,
+     "importe": 152252611.49,
+     "pct_importe": 0.34
+    },
+    {
+     "nivel1": "Comunidades autónomas",
+     "nivel2": "COMUNITAT VALENCIANA",
+     "organo": "SECRETARIA AUTONÓMICA DE INDUSTRIA, COMERCIO Y CONSUMO",
+     "n": 5182,
+     "importe": 148959533.45,
+     "pct_importe": 0.33
+    },
+    {
+     "nivel1": "Estado",
+     "nivel2": "MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES",
+     "organo": "SECRETARÍA GENERAL DE FORMACIÓN PROFESIONAL",
+     "n": 849,
+     "importe": 147484099.44,
+     "pct_importe": 0.33
+    }
+   ]
+  }
+ },
+ "meta": {
+  "nivel1": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Reparto por nivel de administración concedente (nivel1 de la BDNS)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR y %"
+  },
+  "ministerios": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Departamento ministerial (nivel2 cuando nivel1=ESTADO; incluye organismos adscritos)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR y %"
+  },
+  "comunidades": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Comunidad autónoma concedente (nivel2 cuando nivel1=AUTONOMICA). No es el territorio del beneficiario",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR y %"
+  },
+  "entidades_locales_top50": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Entidad local concedente (nivel3 cuando nivel1=LOCAL)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR y %"
+  },
+  "organos_top50": {
+   "source": "BDNS – Sistema Nacional de Publicidad de Subvenciones y Ayudas Públicas (IGAE, Ministerio de Hacienda)",
+   "description": "Órgano concedente concreto (nivel3)",
+   "period": "ejercicio",
+   "url": "https://www.infosubvenciones.es/bdnstrans/api/concesiones/busqueda",
+   "unit": "EUR y %"
+  }
+ }
+}
