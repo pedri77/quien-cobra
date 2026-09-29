@@ -34,6 +34,7 @@
   .nota { font-size:.87rem; color:var(--ink-2); margin-top:10px; }
   .aviso { border-left:3px solid var(--accent); padding:10px 14px; background:var(--paper); border-radius:0 8px 8px 0; margin:18px 0; }
   a { color:var(--accent); }
+  svg { width:100%; height:auto; display:block; }
   select { font:inherit; padding:6px 10px; border-radius:8px; border:1px solid var(--line); background:var(--paper); color:var(--ink); }
   footer { margin-top:40px; border-top:1px solid var(--line); padding-top:16px; font-size:.87rem; color:var(--ink-2); }
 </style>
@@ -65,7 +66,16 @@
 
   <h2>Cuánto se concentra</h2>
   <div class="kpis" id="conc"></div>
+  <div class="card"><svg id="g-lorenz" viewBox="0 0 640 380" role="img" aria-label="Curva de concentración del reparto"></svg></div>
   <p class="nota" id="conc-nota"></p>
+
+  <h2>Quién concede, por comunidad</h2>
+  <div class="card"><svg id="g-ccaa" viewBox="0 0 640 420" role="img" aria-label="Importe concedido por comunidad autónoma"></svg></div>
+  <p class="nota">Mide <strong>quién concede</strong>, no dónde vive quien lo recibe: una convocatoria de la Comunitat Valenciana puede financiar a una entidad de otra comunidad. No incluye lo que conceden el Estado ni las entidades locales.</p>
+
+  <h2>Cuándo se concede</h2>
+  <div class="card"><svg id="g-meses" viewBox="0 0 640 300" role="img" aria-label="Importe concedido por mes"></svg></div>
+  <p class="nota">Importe concedido cada mes del ejercicio. La concesión se concentra a final de año, cuando se cierran los presupuestos.</p>
 
   <h2>Las entidades que más reciben</h2>
   <div class="card"><table id="t-top"></table></div>
@@ -109,6 +119,78 @@ function tabla(el, cols, filas, maxKey) {
       }).join('')}</tr>`).join('')}</tbody>`;
 }
 
+const SVG_NS = 'http://www.w3.org/2000/svg';
+const css = (v) => getComputedStyle(document.body).getPropertyValue(v).trim();
+const svgEl = (t, a) => { const e = document.createElementNS(SVG_NS, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+
+function lorenz(el, puntos, gini) {
+  const W = 640, H = 380, m = { t: 20, r: 20, b: 40, l: 52 };
+  const x = (p) => m.l + (W - m.l - m.r) * p / 100;
+  const y = (p) => H - m.b - (H - m.t - m.b) * p / 100;
+  el.innerHTML = '';
+  const g = svgEl('g', {});
+  // Rejilla y ejes
+  for (let p = 0; p <= 100; p += 25) {
+    g.appendChild(svgEl('line', { x1: m.l, x2: W - m.r, y1: y(p), y2: y(p), stroke: css('--line') }));
+    const t = svgEl('text', { x: m.l - 8, y: y(p) + 4, 'text-anchor': 'end', fill: css('--ink-2'), 'font-size': 11 });
+    t.textContent = p + ' %'; g.appendChild(t);
+    const t2 = svgEl('text', { x: x(p), y: H - m.b + 18, 'text-anchor': 'middle', fill: css('--ink-2'), 'font-size': 11 });
+    t2.textContent = p + ' %'; g.appendChild(t2);
+  }
+  // Reparto perfectamente igualitario
+  g.appendChild(svgEl('line', { x1: x(0), y1: y(0), x2: x(100), y2: y(100), stroke: css('--ink-2'), 'stroke-dasharray': '4 4' }));
+  // Curva real
+  const d = puntos.map(([p, v], i) => `${i ? 'L' : 'M'}${x(p).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+  g.appendChild(svgEl('path', { d: `${d} L${x(100)},${y(0)} Z`, fill: css('--bar'), 'fill-opacity': .25, stroke: 'none' }));
+  g.appendChild(svgEl('path', { d, fill: 'none', stroke: css('--bar-hi'), 'stroke-width': 2.5 }));
+  const lbl = (tx, px, py, anchor = 'start', bold = 0) => {
+    const t = svgEl('text', { x: px, y: py, 'text-anchor': anchor, fill: css('--ink'), 'font-size': bold ? 13 : 12, 'font-weight': bold ? 700 : 400 });
+    t.textContent = tx; g.appendChild(t);
+  };
+  lbl('Si todas recibieran lo mismo', x(52), y(60), 'start');
+  lbl(`Reparto real · Gini ${N(gini, 2)}`, x(60), y(12), 'start', 1);
+  lbl('% de las entidades, de la que menos recibe a la que más', W / 2, H - 6, 'middle');
+  el.appendChild(g);
+}
+
+function barras(el, filas, { alto = 420, etiqueta, valor, fmt }) {
+  // Reserva a la derecha para la cifra, y a la izquierda para el nombre más largo:
+  // sin esto, la barra mayor se come su valor y «Comunidad Foral de Navarra» se sale del lienzo.
+  const W = 640, m = { t: 14, r: 86, b: 10, l: 196 };
+  const n = filas.length, h = (alto - m.t - m.b) / n, max = Math.max(...filas.map(valor));
+  el.setAttribute('viewBox', `0 0 ${W} ${alto}`);
+  el.innerHTML = '';
+  const g = svgEl('g', {});
+  const corta = (s, max_c) => (s.length > max_c ? s.slice(0, max_c - 1) + '…' : s);
+  filas.forEach((f, i) => {
+    const yy = m.t + i * h, w = (W - m.l - m.r) * valor(f) / max;
+    g.appendChild(svgEl('rect', { x: m.l, y: yy + 2, width: Math.max(w, 1), height: h - 6, rx: 3, fill: css('--bar-hi'), 'fill-opacity': i ? .55 : .95 }));
+    const t = svgEl('text', { x: m.l - 8, y: yy + h / 2 + 4, 'text-anchor': 'end', fill: css('--ink'), 'font-size': 12 });
+    t.textContent = corta(etiqueta(f), 28); g.appendChild(t);
+    const v = svgEl('text', { x: m.l + w + 6, y: yy + h / 2 + 4, fill: css('--ink-2'), 'font-size': 12 });
+    v.textContent = fmt(valor(f)); g.appendChild(v);
+  });
+  el.appendChild(g);
+}
+
+function lineaMeses(el, meses) {
+  const W = 640, H = 300, m = { t: 16, r: 16, b: 34, l: 88 };
+  const max = Math.max(...meses.map((x) => x.importe));
+  const bw = (W - m.l - m.r) / meses.length;
+  el.innerHTML = '';
+  const g = svgEl('g', {});
+  g.appendChild(svgEl('line', { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: css('--line') }));
+  meses.forEach((x, i) => {
+    const h = (H - m.t - m.b) * x.importe / max;
+    g.appendChild(svgEl('rect', { x: m.l + i * bw + 3, y: H - m.b - h, width: bw - 6, height: h, rx: 3, fill: css('--bar-hi'), 'fill-opacity': .8 }));
+    const t = svgEl('text', { x: m.l + i * bw + bw / 2, y: H - m.b + 16, 'text-anchor': 'middle', fill: css('--ink-2'), 'font-size': 10 });
+    t.textContent = x.mes.slice(5); g.appendChild(t);
+  });
+  const t = svgEl('text', { x: m.l - 8, y: m.t + 10, 'text-anchor': 'end', fill: css('--ink-2'), 'font-size': 11 });
+  t.textContent = EUR(max); g.appendChild(t);
+  el.appendChild(g);
+}
+
 function pinta(y) {
   const r = D.resumen.datos[y], e = r.entidades, c = D.concentracion.datos[y];
   $('#kpis').innerHTML = [
@@ -150,6 +232,11 @@ function pinta(y) {
     [N(c.gini, 2), 'índice de Gini del reparto'],
   ].map(([b, s]) => `<div class="kpi"><b>${b}</b><span>${s}</span></div>`).join('');
   $('#conc-nota').textContent = `La media por entidad es ${EUR(c.media_por_beneficiario)}, quince veces la mediana: unas pocas entidades muy grandes tiran de la media hacia arriba. El Gini va de 0 (todas reciben lo mismo) a 1 (todo va a una).`;
+
+  lorenz($('#g-lorenz'), c.lorenz, c.gini);
+  const ccaa = D.organos.datos[y].comunidades.slice(0, 17);
+  barras($('#g-ccaa'), ccaa, { alto: 30 * ccaa.length + 24, etiqueta: (f) => f.organo, valor: (f) => f.importe, fmt: EUR });
+  lineaMeses($('#g-meses'), r.por_mes_concesion);
 
   tabla($('#t-top'), [
     { t: '#', r: 1, v: (f) => f.i },

@@ -308,8 +308,18 @@ def aggregate(years: list[int]) -> None:
             gini_num += i * s
         gini = round((2 * gini_num) / (npos * cum_sum) - (npos + 1) / npos, 4) if npos else None
         mediana = pos[npos // 2] if npos else None
+        # Curva de Lorenz: % acumulado del dinero que recibe cada percentil de entidades,
+        # ordenadas de la que menos recibe a la que más. Es el gráfico de la concentración.
+        lorenz = []
+        if npos:
+            acc = 0.0
+            total_pos = sum(pos)
+            for p in range(0, 101):
+                k = int(round(npos * p / 100))
+                acc = sum(pos[:k])
+                lorenz.append([p, round(100 * acc / total_pos, 3) if total_pos else 0.0])
         out_conc[per] = {"beneficiarios": nb, "importe_total": round(imp, 2), "gini": gini, "mediana_por_beneficiario": round(mediana, 2) if mediana else None,
-                         "media_por_beneficiario": round(imp / nb, 2) if nb else None, **share}
+                         "media_por_beneficiario": round(imp / nb, 2) if nb else None, **share, "lorenz": lorenz}
 
     common = {"generado": gen, "ejercicios": [str(y) for y in years], "ambito": "Concesiones a entidades jurídicas (NIF de entidad). Personas físicas excluidas a propósito."}
     write("resumen.json", {**common, "datos": out_resumen, "meta": {
